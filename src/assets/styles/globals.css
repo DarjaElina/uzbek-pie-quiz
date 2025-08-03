@@ -87,7 +87,7 @@
     --destructive: 0 80% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 30 25% 75%;
+    --border: 30 25% 90%;
     --input: 30 20% 90%;
     --ring: 33 90% 60%;
 
@@ -135,7 +135,7 @@
     --destructive: 0 62% 50%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 30 15% 30%;
+    --border: 30 15% 20%;
     --input: 30 15% 25%;
     --ring: 33 90% 70%;
 
@@ -159,7 +159,6 @@
     --sidebar-ring: 33 90% 70%;
   }
 }
-
 @layer base {
   body {
     @apply bg-background text-foreground;
