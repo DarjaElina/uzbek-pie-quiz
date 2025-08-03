@@ -7,7 +7,9 @@ const Header = () => {
       <div className="wrapper flex-between">
         <div className="flex-start">
           <Link href="/" className="flex-start">
-            <span className="hidden lg:block font-bold text-2xl ml-3">Uzbek Pie Quiz</span>
+            <span className="hidden lg:block font-bold text-2xl ml-3">
+              Uzbek Pie Quiz
+            </span>
           </Link>
         </div>
         <Menu />

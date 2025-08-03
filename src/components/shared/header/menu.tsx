@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 
-import { EllipsisVertical, FileChartColumn } from "lucide-react";
+import { EllipsisVertical, FileChartColumn, Turntable } from "lucide-react";
 import Link from "next/link";
 import {
   Sheet,
@@ -20,7 +20,12 @@ const Menu = () => {
             <FileChartColumn /> Statistics
           </Link>
         </Button>
-         <ModeToggle />
+        <Button asChild variant="ghost">
+          <Link href="/gallery">
+            <Turntable /> Gallery
+          </Link>
+        </Button>
+        <ModeToggle />
       </nav>
       <nav className="md:hidden">
         <Sheet>
@@ -29,13 +34,19 @@ const Menu = () => {
           </SheetTrigger>
           <SheetContent className="flex flex-col items-start p-6">
             <SheetTitle>Menu</SheetTitle>
-            <ModeToggle />
+
             <Button asChild variant="ghost">
               <Link href="/statictics">
                 <FileChartColumn />
                 Statistics
               </Link>
             </Button>
+            <Button asChild variant="ghost">
+              <Link href="/gallery">
+                <Turntable /> Gallery
+              </Link>
+            </Button>
+            <ModeToggle />
             <SheetDescription></SheetDescription>
           </SheetContent>
         </Sheet>
