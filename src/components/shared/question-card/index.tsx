@@ -25,7 +25,7 @@ const QuestionCard = () => {
   const [isCalculating, setIsCalculating] = useState(false);
   const [showResult, setShowResult] = useState(false);
 
-  const [data, action] = useActionState(createStatisticRecord, {
+  const [, action] = useActionState(createStatisticRecord, {
     success: false,
     message: "",
   });
