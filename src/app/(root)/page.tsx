@@ -6,8 +6,9 @@ import Image from "next/image";
 
 export default function QuizLanding() {
   return (
-    <div className="h-screen flex flex-col justify-center items-center text-center gap-6 px-4">
+    <div className="flex flex-col justify-center items-center text-center gap-6 px-4">
       <Image
+        priority
         alt="bread"
         src="/images/uzbek-bread.avif"
         width={300}
