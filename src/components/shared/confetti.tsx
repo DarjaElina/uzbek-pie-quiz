@@ -1,7 +1,7 @@
 "use client";
 
+import { getJsConfetti } from "@/lib/utils";
 import { useEffect } from "react";
-import { getJsConfetti } from "@/lib/confetti";
 
 const Confetti = () => {
   useEffect(() => {
