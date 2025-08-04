@@ -13,3 +13,17 @@ datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
+
+enum PieType {
+  CLASSIC
+  PUMPKIN
+  LAMB
+  CHEESE
+  POTATO
+}
+
+model Statistic {
+  id   String @id @default(cuid())
+  type PieType
+  createdAt DateTime @default(now())
+}
