@@ -31,6 +31,7 @@ export default function GalleryPage() {
         {uzbekImages.map((img, i) => (
           <div key={i} className="mb-4 break-inside-avoid">
             <Image
+              priority
               {...img}
               className="w-full rounded-xl shadow-lg hover:scale-105 hover:brightness-110 transition-all"
               alt={`Uzbek pie ${i}`}

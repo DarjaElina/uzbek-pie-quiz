@@ -10,12 +10,13 @@ import {
 import Image from "next/image";
 import ProgressBar from "./progress-bar";
 import { cn } from "@/lib/utils";
-import { useState } from "react";
+import { startTransition, useActionState, useState } from "react";
 import { PieType } from "@/types/pie.types";
 import { AnswerOption, PieResult } from "@/types/quiz.types";
 import { questions, results } from "@/db/questions";
 import ResultCard from "../result-card";
 import Confetti from "../confetti";
+import { createStatisticRecord } from "@/lib/actions/statistic.actions";
 
 const QuestionCard = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -23,6 +24,11 @@ const QuestionCard = () => {
   const [res, setRes] = useState<PieResult | null>(null);
   const [isCalculating, setIsCalculating] = useState(false);
   const [showResult, setShowResult] = useState(false);
+
+  const [data, action] = useActionState(createStatisticRecord, {
+    success: false,
+    message: "",
+  });
 
   const getMostFrequent = (arr: PieType[]): PieType => {
     const countMap = arr.reduce<Record<string, number>>((acc, val) => {
@@ -50,6 +56,11 @@ const QuestionCard = () => {
       }, 2000);
 
       const resType = getMostFrequent(newAnswers);
+      startTransition(() => {
+        action({
+          type: resType,
+        });
+      });
       const finalResult = results.find((r) => r.type === resType) || null;
       setRes(finalResult);
     }

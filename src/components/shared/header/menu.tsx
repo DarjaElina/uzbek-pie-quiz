@@ -29,7 +29,7 @@ const Menu = () => {
           </Link>
         </Button>
         <Button asChild variant="ghost">
-          <Link href="/cart">
+          <Link href="/statistics">
             <FileChartColumn /> Statistics
           </Link>
         </Button>

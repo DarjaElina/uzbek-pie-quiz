@@ -1,1 +1,4 @@
-export type PieType = "classic" | "pumpkin" | "cheese" | "potato" | "lamb";
+import { PieTypeEnum } from "@/lib/validators";
+import z from "zod";
+
+export type PieType = z.infer<typeof PieTypeEnum>;

@@ -11,7 +11,6 @@ export function getJsConfetti() {
   return jsConfettiInstance;
 }
 
-
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }

@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function QuizLanding() {
   return (
-    <div className="flex flex-col justify-center items-center text-center gap-6 px-4">
+    <div className="flex flex-col justify-center items-center text-center gap-6 px-4 py-20">
       <Image
         priority
         alt="bread"
