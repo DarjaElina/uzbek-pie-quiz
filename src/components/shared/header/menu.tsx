@@ -47,18 +47,18 @@ const Menu = () => {
           </SheetTrigger>
           <SheetContent className="flex flex-col items-start p-6">
             <SheetTitle>Menu</SheetTitle>
-            <Button asChild variant="ghost">
+            <Button onClick={() => setSheetOpen(false)} asChild variant="ghost">
               <Link href="/">
                 <Home /> Home
               </Link>
             </Button>
-            <Button asChild variant="ghost">
+            <Button onClick={() => setSheetOpen(false)} asChild variant="ghost">
               <Link href="/statictics">
                 <FileChartColumn />
                 Statistics
               </Link>
             </Button>
-            <Button asChild variant="ghost">
+            <Button onClick={() => setSheetOpen(false)} asChild variant="ghost">
               <Link href="/gallery">
                 <Turntable /> Gallery
               </Link>
