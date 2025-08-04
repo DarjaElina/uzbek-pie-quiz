@@ -1,18 +1,24 @@
 "use client";
 
 import * as React from "react";
-
 import { Progress } from "@/components/ui/progress";
 
-const ProgressBar = () => {
-  const [progress, setProgress] = React.useState(13);
+interface ProgressBarProps {
+  currentStep: number;
+  totalSteps?: number;
+}
 
-  React.useEffect(() => {
-    const timer = setTimeout(() => setProgress(66), 500);
-    return () => clearTimeout(timer);
-  }, []);
+const ProgressBar = ({ currentStep, totalSteps = 10 }: ProgressBarProps) => {
+  const percentage = (currentStep / totalSteps) * 100;
 
-  return <Progress value={progress} className="w-[60%]" />;
+  return (
+    <div className="flex flex-col gap-1 items-start">
+      <Progress value={percentage} className="w-full h-2 bg-muted" />
+      <p className="text-sm text-muted-foreground">
+        {currentStep}/{totalSteps}
+      </p>
+    </div>
+  );
 };
 
 export default ProgressBar;

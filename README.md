@@ -1,4 +1,4 @@
-## What Uzbek Pie Are You? 
+## What Uzbek Pie Are You?
 
 The idea of this app came to my mind after having a chat with my [friend developer](https://github.com/EvgenijHyva)
 
