@@ -64,7 +64,7 @@ const Menu = () => {
               </Link>
             </Button>
             <Button onClick={() => setSheetOpen(false)} asChild variant="ghost">
-              <Link href="/statictics">
+              <Link href="/statistics">
                 <FileChartColumn />
                 {t("statistics")}
               </Link>
