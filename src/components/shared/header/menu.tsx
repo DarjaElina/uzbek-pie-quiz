@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import {
   EllipsisVertical,
   FileChartColumn,
+  Heart,
   Home,
   Turntable,
 } from "lucide-react";
@@ -38,6 +39,12 @@ const Menu = () => {
             <Turntable /> Gallery
           </Link>
         </Button>
+        <Button onClick={() => setSheetOpen(false)} asChild variant="ghost">
+          <Link href="/attributions">
+            <Heart />
+            Attributions
+          </Link>
+        </Button>
         <ModeToggle />
       </nav>
       <nav className="md:hidden">
@@ -61,6 +68,12 @@ const Menu = () => {
             <Button onClick={() => setSheetOpen(false)} asChild variant="ghost">
               <Link href="/gallery">
                 <Turntable /> Gallery
+              </Link>
+            </Button>
+            <Button onClick={() => setSheetOpen(false)} asChild variant="ghost">
+              <Link href="/attributions">
+                <Heart />
+                Attributions
               </Link>
             </Button>
             <ModeToggle />

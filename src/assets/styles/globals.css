@@ -175,4 +175,8 @@
   html {
     @apply scroll-smooth;
   }
+
+  li {
+    @apply list-none;
+  }
 }

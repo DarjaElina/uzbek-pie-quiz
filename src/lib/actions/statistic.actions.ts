@@ -40,10 +40,10 @@ export async function createStatisticRecord(
     });
 
     await prisma.statistic.create({
-      data: statisticRecord
+      data: statisticRecord,
     });
 
-    revalidatePath('/statistics');
+    revalidatePath("/statistics");
 
     return { success: true, message: "Record created successfully" };
   } catch (error) {

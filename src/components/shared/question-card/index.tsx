@@ -13,7 +13,7 @@ import { cn } from "@/lib/utils";
 import { startTransition, useActionState, useState } from "react";
 import { PieType } from "@/types/pie.types";
 import { AnswerOption, PieResult } from "@/types/quiz.types";
-import { questions, results } from "@/db/questions";
+import { questions, results } from "@/lib/questions";
 import ResultCard from "../result-card";
 import Confetti from "../confetti";
 import { createStatisticRecord } from "@/lib/actions/statistic.actions";

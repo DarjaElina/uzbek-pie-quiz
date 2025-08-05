@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { uzbekImages } from "@/db/images";
+import { uzbekImages } from "@/lib/images";
 import Link from "next/link";
 
 export default function GalleryPage() {
@@ -27,14 +27,16 @@ export default function GalleryPage() {
       >
         🤎 See the attributions
       </Link>
-      <div className="columns-2 sm:columns-3 md:columns-4 gap-4">
+      <div className="columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-4">
         {uzbekImages.map((img, i) => (
           <div key={i} className="mb-4 break-inside-avoid">
             <Image
               priority
-              {...img}
+              alt={img.alt}
+              src={img.src}
+              width={img.width}
+              height={img.height}
               className="w-full rounded-xl shadow-lg hover:scale-105 hover:brightness-110 transition-all"
-              alt={`Uzbek pie ${i}`}
             />
           </div>
         ))}
