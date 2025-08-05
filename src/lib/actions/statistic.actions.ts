@@ -2,6 +2,7 @@
 import { prisma } from "@/db/prisma";
 import { StatisticInput } from "@/types/statistic.types";
 import { createStatisticRecordSchema } from "../validators";
+import { revalidatePath } from "next/cache";
 
 export async function getStatisticData() {
   const rawData = await prisma.statistic.groupBy({
@@ -39,10 +40,10 @@ export async function createStatisticRecord(
     });
 
     await prisma.statistic.create({
-      data: {
-        type: statisticRecord.type,
-      },
+      data: statisticRecord
     });
+
+    revalidatePath('/statistics');
 
     return { success: true, message: "Record created successfully" };
   } catch (error) {
