@@ -28,10 +28,10 @@ export function getMetaDataByType(type: PieType) {
     };
   }
 
-  const { name, description } = result;
+  const { name, personality } = result;
 
   return {
-    title: `${name} 🥟 | Uzbek Pie Personality Result`,
-    description,
+    title: `My inner Uzbek Pie is ${name} 🥟`,
+    description: `I am ${personality}`,
   };
 }

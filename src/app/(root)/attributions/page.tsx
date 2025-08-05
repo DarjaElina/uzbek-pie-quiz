@@ -81,11 +81,10 @@ export default function AttributionsPage() {
 
       <h2 className="text-2xl font-bold mt-10">Favicon</h2>
       <a
-        className="text-muted-foreground underline"
-        href="https://www.flaticon.com/free-icons/triangle"
-        title="triangle icons"
+        href="https://www.flaticon.com/free-icons/empanada"
+        title="empanada icons"
       >
-        Triangle icons created by riajulislam - Flaticon
+        Empanada icons created by Freepik - Flaticon
       </a>
     </div>
   );
