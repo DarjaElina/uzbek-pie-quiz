@@ -1,8 +1,11 @@
-"use client";
-
 import Image from "next/image";
 import { uzbekImages } from "@/lib/images";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Gallery",
+};
 
 export default function GalleryPage() {
   return (

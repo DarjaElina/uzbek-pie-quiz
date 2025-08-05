@@ -11,8 +11,11 @@ import {
   CardTitle,
 } from "../ui/card";
 import Image from "next/image";
+import ShareDialog from "./share-in-social";
+import { useState } from "react";
 
 const ResultCard = ({ res }: { res: PieResult | null }) => {
+  const [dialogOpen, setDialogOpen] = useState(false);
   return (
     <Card>
       <CardHeader>
@@ -39,13 +42,22 @@ const ResultCard = ({ res }: { res: PieResult | null }) => {
       </CardContent>
 
       <CardFooter className="flex flex-col gap-2 items-center">
-        <p className="text-muted-foreground text-sm">
-          Share this with your friend or…
-        </p>
-        <Button className="cursor-pointer" onClick={() => location.reload()}>
-          Take the quiz again!
+        <Button className="cursor-pointer" onClick={() => setDialogOpen(true)}>
+          Share result
+        </Button>
+        <Button
+          className="cursor-pointer"
+          variant="outline"
+          onClick={() => location.reload()}
+        >
+          Take the quiz again
         </Button>
       </CardFooter>
+      <ShareDialog
+        dialogOpen={dialogOpen}
+        type={res?.type}
+        setDialogOpen={setDialogOpen}
+      />
     </Card>
   );
 };

@@ -16,7 +16,7 @@ export interface Question {
 
 export interface PieResult {
   name: string;
-  type: string;
+  type: PieType;
   personality: string;
   description: string;
   imageUrl: string;

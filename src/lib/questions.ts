@@ -189,14 +189,14 @@ export const questions: Question[] = [
         id: 2,
         answer: "Fresh non (traditional bread from Uzbekistan) with butter",
         pieType: PieType.CLASSIC,
-        imageUrl: "/images/uzbek-bread.avif",
+        imageUrl: "/images/gallery/uzbek-bread.avif",
         imageAlt: "Bread",
       },
       {
         id: 3,
         answer: "Samsa, obviously",
         pieType: PieType.POTATO,
-        imageUrl: "/images/samsa.avif",
+        imageUrl: "/images/gallery/samsa.avif",
         imageAlt: "Warm samsa pastry",
       },
       {

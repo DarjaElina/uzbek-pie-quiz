@@ -1,5 +1,10 @@
 import Statistics from "@/components/shared/statistics";
 import { getStatisticData } from "@/lib/actions/statistic.actions";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Statistics",
+};
 const StatisticPage = async () => {
   const statisticData = await getStatisticData();
 

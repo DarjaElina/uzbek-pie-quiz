@@ -9,8 +9,8 @@ export default function QuizLanding() {
     <div className="flex flex-col justify-center items-center text-center gap-6 px-4 py-20">
       <Image
         priority
-        alt="bread"
-        src="/images/uzbek-bread.avif"
+        alt="Holding traditional Uzbek bread"
+        src="/images/gallery/uzbek-bread.avif"
         width={300}
         height={300}
         className="rounded-2xl brightness-90 hover:brightness-100"
