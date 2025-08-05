@@ -9,14 +9,16 @@ export default function HomePage() {
   const t = useTranslations("HomePage");
   return (
     <div className="flex flex-col justify-center items-center text-center gap-6 px-4 py-20">
-      <Image
-        priority
-        alt="Holding traditional Uzbek bread"
-        src="/images/gallery/uzbek-bread.avif"
-        width={300}
-        height={300}
-        className="rounded-2xl brightness-90 hover:brightness-100"
-      />
+      <div>
+        <Image
+          priority
+          alt="Holding traditional Uzbek bread"
+          src="/images/gallery/uzbek-bread.avif"
+          width="300"
+          height="300"
+          className="rounded-2xl brightness-90 hover:brightness-100 w-full h-auto"
+        />
+      </div>
       <h1 className="text-4xl sm:text-5xl font-extrabold leading-tight max-w-3xl">
         {t("title")}
       </h1>

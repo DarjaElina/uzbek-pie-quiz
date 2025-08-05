@@ -100,15 +100,6 @@
     --brand-primary: 33 90% 60%;
     --brand-secondary: 20 40% 70%;
     --brand-accent: 100 35% 50%;
-
-    --sidebar: 42 100% 97%;
-    --sidebar-foreground: 30 20% 25%;
-    --sidebar-primary: 33 90% 60%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 100 30% 60%;
-    --sidebar-accent-foreground: 100 20% 15%;
-    --sidebar-border: 30 20% 80%;
-    --sidebar-ring: 33 90% 60%;
   }
   .dark {
     --background: 220 14% 10%;
@@ -148,20 +139,6 @@
     --brand-primary: 33 90% 65%;
     --brand-secondary: 20 30% 60%;
     --brand-accent: 213 70% 65%;
-
-    --sidebar: 220 14% 10%;
-    --sidebar-foreground: 210 20% 95%;
-    --sidebar-primary: 33 90% 70%;
-    --sidebar-primary-foreground: 220 20% 10%;
-    --sidebar-accent: 213 70% 65%;
-    --sidebar-accent-foreground: 220 20% 10%;
-    --sidebar-border: 220 10% 30%;
-    --sidebar-ring: 33 90% 70%;
-  }
-}
-@layer base {
-  body {
-    @apply bg-background text-foreground;
   }
 }
 

@@ -36,9 +36,9 @@ export default function GalleryPage() {
               priority
               alt={img.alt}
               src={img.src}
-              width={img.width}
-              height={img.height}
-              className="w-full rounded-xl shadow-lg hover:scale-105 hover:brightness-110 transition-all"
+              width={300}
+              height={300}
+              className="w-full h-auto rounded-xl shadow-lg hover:scale-105 hover:brightness-110 transition-all"
             />
           </div>
         ))}

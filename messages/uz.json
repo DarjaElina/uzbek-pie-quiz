@@ -21,7 +21,12 @@
   },
   "StatisticsPage": {
     "title": "Statistika",
-    "description": "Bu statistika foydalanuvchilar topshirgan viktorina natijalariga asoslangan — qaysi pirog turlari eng mashhur ekanligini bilib oling!"
+    "description": "Bu statistika foydalanuvchilar topshirgan viktorina natijalariga asoslangan — qaysi pirog turlari eng mashhur ekanligini bilib oling!",
+    "CLASSIC": "Klassik Lihasamsa",
+    "PUMPKIN": "Qovoq va Ziravor Samsasi",
+    "POTATO": "Kartoshka Samsasi",
+    "CHEESE": "Pishloq va Yashil Samsa",
+    "LAMB": "Qo'y yog'i va piyoz Samsasi"
   },
   "AttributionsPage": {
     "title": "Rasmlar mualliflari",
@@ -113,9 +118,13 @@
     "potatoDescription": "Oddiy? Hech ham emas. Siz yerga yaqin va taskin beruvchisiz - odamlar sizga siz o‘ylaganingizdan ham ko‘proq muhtoj. Siz kulgili bo‘lishingiz mumkin, ammo ishonchli do‘st ekansiz. Odamlarga muhabbatni ularni kuldirish va mazali narsalar bilan siylash orqali ko‘rsatasiz.",
 
     "calculating": "O'zbek somsa shaxsiyatingiz aniqlanmoqda…",
-    "shareResult": "Natijani ulashing",
-    "takeQuizAgain": "Testni yana bir bor topshiring",
-    "youAreA": "Siz"
+    "youAre": "Siz {result}siz",
+    "iAm": "Men {result}man",
+    "shareResult": "Natijangizni ulashing",
+    "takeQuizAgain": "Testni yana bir bor bajaring",
+    "tryItYourself": "O'zingiz ham urinib ko'ring",
+    "shareWith": "Test natijangizni do'stlaringiz va oila a'zolaringiz bilan ulashing!",
+    "cancel": "Bekor qilish"
   },
   "Header": {
     "home": "Bosh sahifa",
@@ -135,5 +144,7 @@
     "builtWith": "Daria Elina tomonidan 🧡 bilan yaratilgan"
   },
 
-  "loading": "Yuklanmoqda..."
+  "Loading": {
+    "loading": "Yuklanmoqda..."
+  }
 }

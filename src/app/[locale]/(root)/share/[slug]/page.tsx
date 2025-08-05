@@ -19,7 +19,6 @@ export async function generateMetadata({
   params,
 }: SharePageProps): Promise<Metadata> {
   const { slug } = await params;
-  
 
   const pieSlug = slug.toUpperCase();
 
@@ -43,7 +42,7 @@ export default async function SharePage({ params }: SharePageProps) {
 
   return (
     <div className="m-auto max-w-3xl py-20">
-      <ResultCard res={res} />
+      <ResultCard res={res} mode="share" />
     </div>
   );
 }

@@ -21,7 +21,12 @@
   },
   "StatisticsPage": {
     "title": "Statistics",
-    "description": "These statistics are based on quiz results submitted by users — see which pie types are the most popular!"
+    "description": "These statistics are based on quiz results submitted by users — see which pie types are the most popular!",
+    "CLASSIC": "Classic Meat Samsa",
+    "PUMPKIN": "Pumpkin & Herb Samsa",
+    "POTATO": "Potato Samsa",
+    "CHEESE": "Cheese & Greens Samsa",
+    "LAMB": "Lamb Fat & Onion Samsa"
   },
   "AttributionsPage": {
     "title": "Image Attributions",
@@ -113,9 +118,13 @@
     "potatoDescription": "Simple? Never. You're grounding and comforting—people need you more than they realize. Silly at times, but incredibly dependable. You show love by making people laugh and feeding them snacks.",
 
     "calculating": "Calculating your Uzbek pie personality…",
-    "shareResult": "Share result",
+    "youAre": "You are a {result}",
+    "iAm": "I'm a {result}",
+    "shareResult": "Share your result",
     "takeQuizAgain": "Take the quiz again",
-    "youAreA": "You are a"
+    "tryItYourself": "Try it yourself",
+    "shareWith": "Share your quiz result with friends and family!",
+    "cancel": "Cancel"
   },
 
   "Header": {

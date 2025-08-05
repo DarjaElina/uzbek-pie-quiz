@@ -1,6 +1,7 @@
 "use client";
 
 import { Bar, BarChart, XAxis } from "recharts";
+import { useTranslations } from "next-intl";
 
 import {
   ChartConfig,
@@ -21,6 +22,8 @@ const chartConfig = {
 } satisfies ChartConfig;
 
 const Statistics = ({ statisticData }: StatisticsProps) => {
+  const t = useTranslations("StatisticsPage");
+
   return (
     <ChartContainer
       config={chartConfig}
@@ -32,13 +35,11 @@ const Statistics = ({ statisticData }: StatisticsProps) => {
           tickLine={false}
           tickMargin={10}
           axisLine={false}
-          tickFormatter={(type) =>
-            `${type.slice(0, 1)}${type.slice(1).toLowerCase()}`
-          }
+          tickFormatter={(type) => t(`${type}`) || type}
         />
         <ChartTooltip
           cursor={false}
-          content={<ChartTooltipContent hideLabel />}
+          content={<ChartTooltipContent labelKey="count" nameKey="count" />}
         />
         <Bar dataKey="count" fill="var(--color-primary)" radius={8} />
       </BarChart>

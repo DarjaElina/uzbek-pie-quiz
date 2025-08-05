@@ -14,15 +14,30 @@ import Image from "next/image";
 import ShareDialog from "./share-in-social";
 import { useState } from "react";
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 
-const ResultCard = ({ res }: { res: PieResult | null }) => {
+const ResultCard = ({
+  res,
+  mode = "result",
+}: {
+  res: PieResult | null;
+  mode?: "result" | "share";
+}) => {
   const [dialogOpen, setDialogOpen] = useState(false);
   const t = useTranslations("ResultPage");
+
+  const shareTitle = res?.name ? t("iAm", { result: res.name }) : "";
+  const shareText = res?.personality || "";
+
   return (
-    <Card>
+    <Card className="max-w-xl mx-auto">
       <CardHeader>
         <CardTitle className="text-center text-2xl">
-          {t("youAreA")} {res?.name}
+          {mode === "result" && res?.name
+            ? t("youAre", { result: res.name })
+            : mode === "share" && res?.name
+              ? `${t("iAm", { result: res.name })}!`
+              : ""}
         </CardTitle>
         <CardDescription className="text-center text-xl">
           {res?.personality}
@@ -43,22 +58,35 @@ const ResultCard = ({ res }: { res: PieResult | null }) => {
         <p className="text-center text-base">{res?.description}</p>
       </CardContent>
 
-      <CardFooter className="flex flex-col gap-2 items-center">
-        <Button className="cursor-pointer" onClick={() => setDialogOpen(true)}>
-          {t("shareResult")}
-        </Button>
-        <Button
-          className="cursor-pointer"
-          variant="outline"
-          onClick={() => location.reload()}
-        >
-          {t("takeQuizAgain")}
-        </Button>
+      <CardFooter className="flex flex-col items-center gap-3 w-full">
+        {mode === "result" ? (
+          <>
+            <Button
+              className="w-full sm:w-auto"
+              onClick={() => setDialogOpen(true)}
+            >
+              {t("shareResult")}
+            </Button>
+            <Button
+              className="w-full sm:w-auto"
+              variant="outline"
+              onClick={() => location.reload()}
+            >
+              {t("takeQuizAgain")}
+            </Button>
+          </>
+        ) : (
+          <Button asChild>
+            <Link href="/quiz">{t("tryItYourself")}</Link>
+          </Button>
+        )}
       </CardFooter>
       <ShareDialog
         dialogOpen={dialogOpen}
-        type={res?.type}
         setDialogOpen={setDialogOpen}
+        type={res?.type}
+        title={shareTitle}
+        text={shareText}
       />
     </Card>
   );

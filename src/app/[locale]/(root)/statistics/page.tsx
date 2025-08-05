@@ -15,7 +15,7 @@ const StatisticPage = async () => {
       <h1 className="text-4xl sm:text-5xl text-center font-extrabold leading-tight">
         {t("title")}
       </h1>
-      <p className="mt-4 text-center text-muted-foreground max-w-xl mx-auto">
+      <p className="my-4 text-center text-muted-foreground max-w-xl mx-auto">
         {t("description")}
       </p>
       <Statistics statisticData={statisticData} />

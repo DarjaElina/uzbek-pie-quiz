@@ -128,7 +128,7 @@ const QuestionCard = ({
       {showResult && (
         <>
           <Confetti />
-          <ResultCard res={res} />
+          <ResultCard res={res} mode="result" />
         </>
       )}
     </div>

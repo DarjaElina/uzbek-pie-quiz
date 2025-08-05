@@ -21,7 +21,12 @@
   },
   "StatisticsPage": {
     "title": "Tilastot",
-    "description": "Nämä tilastot perustuvat käyttäjien lähettämiin visavastauksiin — katso, mitkä piirakkatyypit ovat suosituimpia!"
+    "description": "Nämä tilastot perustuvat käyttäjien lähettämiin visavastauksiin — katso, mitkä piirakkatyypit ovat suosituimpia!",
+    "CLASSIC": "Klassinen lihasamsa",
+    "PUMPKIN": "Kurpitsa-yrttisamsa",
+    "POTATO": "Perunasamsa",
+    "CHEESE": "Juusto-yrttisamsa",
+    "LAMB": "Lampaanrasva-sipulisamsa"
   },
   "AttributionsPage": {
     "title": "Kuvien tekijänoikeudet",
@@ -113,9 +118,13 @@
     "potatoDescription": "Yksinkertainen? Et todellakaan. Olet maadoittava ja lohduttava – ihmiset tarvitsevat sinua enemmän kuin ymmärtävätkään. Saatat olla hassu, mutta olet uskomattoman luotettava. Näytät rakkautta naurattamalla ihmisiä ja tarjoamalla heille herkkuja.",
 
     "calculating": "Lasketaan uzbekkipiirakkapersoonaasi…",
-    "shareResult": "Jaa tulos",
-    "takeQuizAgain": "Tee testi uudelleen",
-    "youAreA": "Olet"
+    "youAre": "Olet {result}",
+    "iAm": "Olen {result}",
+    "shareResult": "Jaa tuloksesi",
+    "takeQuizAgain": "Tee testi uudestaan",
+    "tryItYourself": "Kokeile itse",
+    "shareWith": "Jaa kyselytuloksesi ystävien ja perheen kanssa!",
+    "cancel": "Peruuta"
   },
 
   "Header": {
