@@ -11,10 +11,12 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { useTheme } from "next-themes";
 import { SunIcon, MoonIcon, SunMoon } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 const ModeToggle = () => {
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
+  const t = useTranslations("ModeToggle");
 
   useEffect(() => {
     setMounted(true);
@@ -41,25 +43,25 @@ const ModeToggle = () => {
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent>
-        <DropdownMenuLabel>Appearance</DropdownMenuLabel>
+        <DropdownMenuLabel>{t("appearance")}</DropdownMenuLabel>
         <DropdownMenuSeparator />
         <DropdownMenuCheckboxItem
           checked={theme === "system"}
           onClick={() => setTheme("system")}
         >
-          System
+          {t("system")}
         </DropdownMenuCheckboxItem>
         <DropdownMenuCheckboxItem
           checked={theme === "dark"}
           onClick={() => setTheme("dark")}
         >
-          Dark
+          {t("light")}
         </DropdownMenuCheckboxItem>
         <DropdownMenuCheckboxItem
           checked={theme === "light"}
           onClick={() => setTheme("light")}
         >
-          Light
+          {t("dark")}
         </DropdownMenuCheckboxItem>
       </DropdownMenuContent>
     </DropdownMenu>

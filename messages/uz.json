@@ -1,0 +1,139 @@
+{
+  "HomePage": {
+    "title": "🥟 Qaysi Oʻzbek Patir Sening Ruhiy Pishirig'ing?",
+    "description": "Siz hech oʻylab koʻrganmisiz — siz klassik goʻshtli samsamisiz yoki shirin qovoqli? Bu viktorina quvnoqlik, ta’m va shaxsiyatni uygʻunlashtiradi. Ichki patiringizni topamiz!",
+    "start": "Viktorinani boshlash",
+    "galleryLink": "yoki ilhom galereyasiga qarang →"
+  },
+  "Settings": {
+    "appearance": "Tashqi ko‘rinish",
+    "light": "Yorug‘",
+    "dark": "Qorong‘i",
+    "system": "Tizim",
+    "language": "Til",
+    "locale": "{locale}"
+  },
+  "GalleryPage": {
+    "title": "Ilhom galleriyasi",
+    "description1": "Bu rasmlarni shu yerga qo‘shmoqchi bo‘ldim, chunki ular quyosh, yoz, shaftoli hidi, ziravorlar va an’anaviy ko‘cha taomlari bilan to‘la. Umid qilamanki, ular sizning qalbingizga quvonch olib keladi, qandayki meniki olib kelganidek.",
+    "description2": "Qiziqarli viktorina sifatida boshlangan narsa, o‘zbek madaniyatining iliqligi va boyligiga sayohatga aylandi — va men buni siz bilan bo‘lishayotganimdan juda xursandman.",
+    "seeAttributions": "🤎 Manbalarni ko‘rish"
+  },
+  "StatisticsPage": {
+    "title": "Statistika",
+    "description": "Bu statistika foydalanuvchilar topshirgan viktorina natijalariga asoslangan — qaysi pirog turlari eng mashhur ekanligini bilib oling!"
+  },
+  "AttributionsPage": {
+    "title": "Rasmlar mualliflari",
+    "thanks": "Ushbu go‘zal tasvirlarni ulashgan ajoyib fotosuratchilarga katta rahmat. 🧡",
+    "backToGallery": "Galereyaga qaytish"
+  },
+  "Quiz": {
+    "question1": "Qaysi turdagi bozorga eng ko'p oshiqsiz?",
+    "q1a1": "Har joyda ziravorlar va hidlar",
+    "q1a2": "Qo‘l mehnati va kashtachilik",
+    "q1a3": "Mevalar va issiq non",
+    "q1a4": "Ipak, sopol buyumlar va eski kitoblar",
+
+    "question2": "Sizning ideal ertalabki marosimingiz?",
+    "q2a1": "Choyni sekin qaynatish",
+    "q2a2": "Yaqqol insonlar uchun nonushta tayyorlash",
+    "q2a3": "Jim jurnal yuritish yoki chizish",
+    "q2a4": "Tozalash paytida raqsga tushish",
+
+    "question3": "Qaysi ziravor qalbingizni chaqiradi?",
+    "q3a1": "Qalampir (jasur va achchiq)",
+    "q3a2": "Zira (yerga yaqin va chuqur)",
+    "q3a3": "Dolchin (shirin va iliq)",
+    "q3a4": "Sarımsaq (kuchli va halol)",
+
+    "question4": "An'anaviy o‘zbek naqshini tanlang:",
+    "q4a1": "Suzani gullari",
+    "q4a2": "Ikat to‘lqinlari",
+    "q4a3": "Geometrik plitkalar",
+    "q4a4": "Oltin ipli kashtachilik",
+
+    "question5": "Nimadir noto‘g‘ri bo‘lganda qanday reaksiyaga kirishasiz?",
+    "q5a1": "Nafas olib, xotirjamlik topaman",
+    "q5a2": "Hazil qilaman va vaziyatga moslashaman",
+    "q5a3": "Uni baland ovozda ifodalayman",
+    "q5a4": "Hissiyotlarni yashiraman, boshqalarga yordam beraman",
+
+    "question6": "Sovuq kunda qaysi taom sizni taskin beradi?",
+    "q6a1": "Lag‘mon (mol go‘shti, sarimsoq, pomidor pastasi, sabzavot va ziravorli sho‘rva)",
+    "q6a2": "Yangi non (an'anaviy o‘zbek noni) sariyog‘ bilan",
+    "q6a3": "Samsa, albatta",
+    "q6a4": "Qovoq sho‘rva o'tlari bilan",
+
+    "question7": "Choy kayfiyatingizni tanlang:",
+    "q7a1": "Yashil choy yalpiz bilan",
+    "q7a2": "Qora choy, shakar qo‘shilmagan",
+    "q7a3": "Limon va zanjabil",
+    "q7a4": "Quritilgan mevalar infuziyasi",
+
+    "question8": "Uyingizdagi muhit qanday?",
+    "q8a1": "Quyoshli va yumshoq",
+    "q8a2": "Ijodiy va tartibsiz",
+    "q8a3": "Sokin va minimalist",
+    "q8a4": "Zamonaviy va jasoratli",
+
+    "question9": "Do‘stlaringiz sizni qanday ko‘radi?",
+    "q9a1": "Kuchli va dono",
+    "q9a2": "G‘alati lekin zukko",
+    "q9a3": "Mehribon va shirin",
+    "q9a4": "Faol va qiziqarli",
+
+    "question10": "Samsangiz qaysi shaklda bo‘lsin?",
+    "q10a1": "Uchburchak — klassik",
+    "q10a2": "Aylana — ichida yumshoq, tashqi qattiq",
+    "q10a3": "Spiral — tartibsiz va chiroyli",
+    "q10a4": "To‘rtburchak — o‘tkir va muvozanatli",
+
+    "choose": "Eng sizga mos keladiganini tanlang"
+  },
+  "ResultPage": {
+    "classicName": "Klassik go‘shtli samsa",
+    "classicPersonality": "🥟 Jasur · Soddadil · Sodiq",
+    "classicDescription": "Siz ishonchli insonsiz. Iliq, to‘yimli va doimiy qadriyatlarga ega. Odamlar maslahat va chin dildan quchoq olish uchun sizga murojaat qilishadi. Tashqaridan qattiq ko‘rinsangiz-da, ichingizda taskin va osoyishtalik yashaydi. Siz choy olib keladigan va hayot haqida chuqur suhbatlar qiladigan odamlardansiz.",
+
+    "pumpkinName": "Qovoq va ko‘katli samsa",
+    "pumpkinPersonality": "🎨 Muloyim · O‘ylovchan · San’atsevar",
+    "pumpkinDescription": "Samarqand ustidagi oltin quyosh botishiday porlaysiz. Go‘zallikni chuqur his qilasiz, sokin donolik bilan to‘lgansiz. Siz issiqko‘ngil va serfikrli – haqiqiy romantik ruhsiz. Ba’zida chiroyli gul ko‘rib yig‘lab yuborishingiz mumkin. Bu esa mutlaqo yaxshi holat.",
+
+    "lambName": "Qo‘y yog‘i va piyozli samsa",
+    "lambPersonality": "🔥 G‘ayratli · Hissiyotli · Dramaga moyil",
+    "lambDescription": "Siz ta’m portlashisiz. Sizni unutib bo‘lmaydi. Siz bor vujudingiz bilan sevib yashaysiz, hech qanday sinovdan qo‘rqmaysiz. Balki choy damlayotib monolog ham o‘qib berarsiz. Bu esa chinakam ikonadir.",
+
+    "cheeseName": "Pishloq va ko‘katli samsa",
+    "cheesePersonality": "🍃 Yangi · O‘ynoqi · Zukkо",
+    "cheeseDescription": "Siz quvvat va jozibadorlik bilan to‘lgansiz. Siz 'Keling, biror qiziqarli narsa qilamiz!' deb aytadigan insonsiz. Biroz g‘alati bo‘lishingiz mumkin, lekin har doim kayfiyatni ko‘tarasiz. Guruhga limon tilimi kabi jon bag‘ishlaysiz.",
+
+    "potatoName": "Kartoshkali samsa",
+    "potatoPersonality": "🤝 Sodiq · Qiziqarli · Mehribon",
+    "potatoDescription": "Oddiy? Hech ham emas. Siz yerga yaqin va taskin beruvchisiz - odamlar sizga siz o‘ylaganingizdan ham ko‘proq muhtoj. Siz kulgili bo‘lishingiz mumkin, ammo ishonchli do‘st ekansiz. Odamlarga muhabbatni ularni kuldirish va mazali narsalar bilan siylash orqali ko‘rsatasiz.",
+
+    "calculating": "O'zbek somsa shaxsiyatingiz aniqlanmoqda…",
+    "shareResult": "Natijani ulashing",
+    "takeQuizAgain": "Testni yana bir bor topshiring",
+    "youAreA": "Siz"
+  },
+  "Header": {
+    "home": "Bosh sahifa",
+    "statistics": "Statistika",
+    "gallery": "Galereya",
+    "attributions": "Mualliflar",
+    "menu": "Menyu",
+    "name": "Oʻzbek pirogi testi"
+  },
+  "ModeToggle": {
+    "appearance": "Ko‘rinish",
+    "system": "Tizimga bog‘liq",
+    "dark": "Qorong‘i",
+    "light": "Yorug‘"
+  },
+  "Footer": {
+    "builtWith": "Daria Elina tomonidan 🧡 bilan yaratilgan"
+  },
+
+  "loading": "Yuklanmoqda..."
+}

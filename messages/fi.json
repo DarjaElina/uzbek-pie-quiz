@@ -1,0 +1,144 @@
+{
+  "HomePage": {
+    "title": "🥟 Mikä uzbekistanilainen piirakka olet?",
+    "description": "Oletko miettinyt, oletko klassinen lihasamsa vai makea kurpitsapiirakka? Tämä testi yhdistää huvin, maun ja persoonallisuuden. Selvitetään, mikä piirakka olet!",
+    "start": "Aloita testi",
+    "galleryLink": "tai selaa inspiraatiogalleriaa →"
+  },
+  "Settings": {
+    "appearance": "Ulkoasu",
+    "light": "Vaalea",
+    "dark": "Tumma",
+    "system": "Järjestelmä",
+    "language": "Kieli",
+    "locale": "{locale}"
+  },
+  "GalleryPage": {
+    "title": "Inspiraatiogalleria",
+    "description1": "Halusin sisällyttää nämä kuvat tänne, koska niissä on aurinkoa, kesää, persikoiden tuoksua, mausteita ja perinteistä katuruokaa. Toivon, että ne tuovat pienen ilonkipinän sieluusi, kuten ne toivat minulle.",
+    "description2": "Se, mikä alkoi hauskana kyselynä, muuttui matkaksi uzbekistanilaisen kulttuurin lämpöön ja rikkauteen – ja olen niin iloinen voidessani jakaa sen kanssasi.",
+    "seeAttributions": "🤎 Katso lähdeviittaukset"
+  },
+  "StatisticsPage": {
+    "title": "Tilastot",
+    "description": "Nämä tilastot perustuvat käyttäjien lähettämiin visavastauksiin — katso, mitkä piirakkatyypit ovat suosituimpia!"
+  },
+  "AttributionsPage": {
+    "title": "Kuvien tekijänoikeudet",
+    "thanks": "Suuret kiitokset kaikille upeille valokuvaajille, jotka jakoivat nämä kauniit kuvat. 🧡",
+    "backToGallery": "Takaisin galleriaan"
+  },
+  "Quiz": {
+    "question1": "Minkälaista basaaria rakastat eniten?",
+    "q1a1": "Mausteita ja tuoksuja kaikkialla",
+    "q1a2": "Käsityöt ja kirjonta",
+    "q1a3": "Hedelmiä ja tuoretta leipää",
+    "q1a4": "Silkkiä, keramiikkaa ja vanhoja kirjoja",
+
+    "question2": "Mikä on ihanteellinen aamu-rituaalisi?",
+    "q2a1": "Haudutan teen hitaasti",
+    "q2a2": "Valmistan aamiaisen läheisille",
+    "q2a3": "Hiljainen päiväkirjan kirjoitus tai luonnostelu",
+    "q2a4": "Tanssin siivotessa",
+
+    "question3": "Valitse mauste, joka kutsuu sieluasi:",
+    "q3a1": "Chili (rohkea ja tulinen)",
+    "q3a2": "Juustokumina (maanläheinen ja syvä)",
+    "q3a3": "Kaneli (makea ja lämmin)",
+    "q3a4": "Valkosipuli (vahva ja rehellinen)",
+
+    "question4": "Valitse perinteinen uzbekistanilainen kuvio:",
+    "q4a1": "Suzanin kukat",
+    "q4a2": "Ikat-aallot",
+    "q4a3": "Geometriset laatat",
+    "q4a4": "Kultalanka-kirjonta",
+
+    "question5": "Miten reagoit, kun jokin menee pieleen?",
+    "q5a1": "Hengitä ja löydä rauha",
+    "q5a2": "Vitsaile ja ota rennosti",
+    "q5a3": "Ilmaise se äänekkäästi ja ylpeästi",
+    "q5a4": "Piilota tunteet ja auta muita",
+
+    "question6": "Valitse lohduttava ruoka kylmänä päivänä:",
+    "q6a1": "Lagman (nuudelikeitto naudanlihalla, valkosipulilla ja mausteilla)",
+    "q6a2": "Tuore non (uzbekistanilainen leipä) voin kanssa",
+    "q6a3": "Samsa, tietenkin",
+    "q6a4": "Kurpitsakeitto yrteillä",
+
+    "question7": "Valitse teesi tunnelma:",
+    "q7a1": "Vihreä tee mintulla",
+    "q7a2": "Musta tee ilman sokeria",
+    "q7a3": "Sitruuna ja inkivääri",
+    "q7a4": "Kuivattujen hedelmien tee",
+
+    "question8": "Kotisi tunnelma on enemmän:",
+    "q8a1": "Kodikas ja pehmeä",
+    "q8a2": "Luova ja sotkuinen",
+    "q8a3": "Rauhallinen ja minimalistinen",
+    "q8a4": "Tyylikäs ja rohkea",
+
+    "question9": "Miten ystäväsi näkevät sinut?",
+    "q9a1": "Vahva ja viisas",
+    "q9a2": "Omituinen mutta nerokas",
+    "q9a3": "Hellä ja suloinen",
+    "q9a4": "Energinen ja hauska",
+
+    "question10": "Minkä muotoisen samsan haluat?",
+    "q10a1": "Kolmio — klassinen",
+    "q10a2": "Pyöreä — pehmeä sisältä, kova ulkoa",
+    "q10a3": "Kierre — kaoottinen ja kaunis",
+    "q10a4": "Neliö — terävä ja tasapainoinen",
+
+    "choose": "Valitse se, joka tuntuu eniten sinulta"
+  },
+  "ResultPage": {
+    "classicName": "Klassinen lihasamsa",
+    "classicPersonality": "🥟 Rohkea · Maanläheinen · Uskollinen",
+    "classicDescription": "Olet se luotettava tyyppi. Lämmin, täyttävä ja ajaton. Ihmiset kääntyvät puoleesi neuvojen ja kunnon halien vuoksi. Vaikutat ehkä kovalta ulospäin, mutta sisältä olet silkkaa lohtua. Olet sellainen, joka tuo teetä ja syvällisiä elämän keskusteluja.",
+
+    "pumpkinName": "Kurpitsa-yrttisamsa",
+    "pumpkinPersonality": "🎨 Lempeä · Harkitseva · Taiteellinen",
+    "pumpkinDescription": "Säteilet sisältäpäin kuin kultainen auringonlasku Samarkandin yllä. Herkkä kauneudelle, täynnä hiljaista viisautta. Olet lämmin ja syvällinen - todellinen romanttinen sielu. Saatat itkeä kauniin kukan takia. Ja se on ihan ok.",
+
+    "lambName": "Lampaanrasva-sipulisamsa",
+    "lambPersonality": "🔥 Intensiivinen · Intoilija · Dramaattinen",
+    "lambDescription": "Olet makupommi. Sinut muistetaan. Rakastat täysillä, elät suuresti etkä koskaan väistä haastetta. Saatat pitää monologin teetä keittäessäsi. Ja se on ikonista.",
+
+    "cheeseName": "Juusto-yrttisamsa",
+    "cheesePersonality": "🍃 Raikas · Leikkisä · Fiksu",
+    "cheeseDescription": "Olet täynnä energiaa ja viehätysvoimaa. Olet se tyyppi, joka sanoo: 'Tehdään jotain hauskaa!' Hiukan omituinen, mutta aina piristävä. Tuo ryhmään säväyksen kuin sitruunatippa.",
+
+    "potatoName": "Perunasamsa",
+    "potatoPersonality": "🤝 Uskollinen · Hauska · Lempeä",
+    "potatoDescription": "Yksinkertainen? Et todellakaan. Olet maadoittava ja lohduttava – ihmiset tarvitsevat sinua enemmän kuin ymmärtävätkään. Saatat olla hassu, mutta olet uskomattoman luotettava. Näytät rakkautta naurattamalla ihmisiä ja tarjoamalla heille herkkuja.",
+
+    "calculating": "Lasketaan uzbekkipiirakkapersoonaasi…",
+    "shareResult": "Jaa tulos",
+    "takeQuizAgain": "Tee testi uudelleen",
+    "youAreA": "Olet"
+  },
+
+  "Header": {
+    "home": "Koti",
+    "statistics": "Tilastot",
+    "gallery": "Galleria",
+    "attributions": "Hyvitykset",
+    "menu": "Valikko",
+    "name": "Uzbekistanilainen piirakkatesti"
+  },
+
+  "ModeToggle": {
+    "appearance": "Ulkoasu",
+    "system": "Järjestelmän oletus",
+    "dark": "Tumma",
+    "light": "Vaalea"
+  },
+
+  "Footer": {
+    "builtWith": "Tehty 🧡 rakkaudella – Daria Elina"
+  },
+
+  "Loading": {
+    "loading": "Ladataan..."
+  }
+}

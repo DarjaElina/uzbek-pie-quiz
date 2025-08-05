@@ -1,9 +1,11 @@
 import { clsx, type ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
 import JSConfetti from "js-confetti";
-import { PieType } from "@/types/pie.types";
-import { results } from "./questions";
 import { APP_DESCRIPTION, APP_NAME } from "./constants";
+import { PieType } from "@/generated/prisma";
+import { results } from "./constants/results";
+import { questions } from "./constants/questions";
+import { getTranslations } from "next-intl/server";
 
 let jsConfettiInstance: JSConfetti | null = null;
 
@@ -18,8 +20,9 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
-export function getMetaDataByType(type: PieType) {
+export async function getMetaDataByType(type: PieType) {
   const result = results.find((r) => r.type === type);
+  const t = await getTranslations("ResultPage");
 
   if (!result) {
     return {
@@ -28,10 +31,34 @@ export function getMetaDataByType(type: PieType) {
     };
   }
 
-  const { name, personality } = result;
+  const { nameKey, personalityKey } = result;
 
   return {
-    title: `My inner Uzbek Pie is ${name} 🥟`,
-    description: `I am ${personality}`,
+    title: `My inner Uzbek Pie is ${t(nameKey)} 🥟`,
+    description: `I am ${t(personalityKey)}`,
   };
+}
+
+export async function getLocalizedQuestions() {
+  const t = await getTranslations("Quiz");
+
+  return questions.map((q) => ({
+    ...q,
+    question: t(q.questionKey),
+    answerOptions: q.answerOptions.map((a) => ({
+      ...a,
+      answer: t(a.answerKey),
+    })),
+  }));
+}
+
+export async function getLocalizedResults() {
+  const t = await getTranslations("ResultPage");
+
+  return results.map((r) => ({
+    ...r,
+    name: t(r.nameKey),
+    personality: t(r.personalityKey),
+    descriptionKey: t(r.descriptionKey),
+  }));
 }

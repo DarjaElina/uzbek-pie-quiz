@@ -1,34 +1,33 @@
 import Image from "next/image";
-import { uzbekImages } from "@/lib/images";
+import { uzbekImages } from "@/lib/constants/images";
 import Link from "next/link";
 import { Metadata } from "next";
+import { useTranslations } from "next-intl";
 
 export const metadata: Metadata = {
   title: "Gallery",
 };
 
 export default function GalleryPage() {
+  const t = useTranslations("GalleryPage");
   return (
     <div className="flex flex-col justify-center items-center text-center gap-6 px-4 py-20">
       <h1 className="text-4xl sm:text-5xl font-extrabold leading-tight max-w-3xl">
-        Inspiration gallery
+        {t("title")}
       </h1>
       <p className="max-w-2xl text-muted-foreground text-lg sm:text-xl">
-        I wanted to include these pictures here, because they are full of sun,
-        summer, smell of peaches, spices and street traditional food. I hope
-        they will bring sparkle of joy to your soul, as they brought it to mine.
+        {t("description1")}
       </p>
       <p className="max-w-2xl text-muted-foreground text-lg sm:text-xl">
         {" "}
-        What started as a fun quiz turned into a journey into the warmth and
-        richness of Uzbek culture—and I&apos;m so happy to share that with you.
+        {t("description2")}
       </p>
 
       <Link
         href="/attributions"
         className="text-muted-foreground text-md hover:underline"
       >
-        🤎 See the attributions
+        {t("seeAttributions")}
       </Link>
       <div className="columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-4">
         {uzbekImages.map((img, i) => (

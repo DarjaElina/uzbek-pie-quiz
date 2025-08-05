@@ -13,14 +13,16 @@ import {
 import Image from "next/image";
 import ShareDialog from "./share-in-social";
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 
 const ResultCard = ({ res }: { res: PieResult | null }) => {
   const [dialogOpen, setDialogOpen] = useState(false);
+  const t = useTranslations("ResultPage");
   return (
     <Card>
       <CardHeader>
         <CardTitle className="text-center text-2xl">
-          You are a {res?.name}
+          {t("youAreA")} {res?.name}
         </CardTitle>
         <CardDescription className="text-center text-xl">
           {res?.personality}
@@ -32,7 +34,7 @@ const ResultCard = ({ res }: { res: PieResult | null }) => {
           <Image
             priority
             src={res.imageUrl}
-            alt={res.name}
+            alt={res.name ?? "Uzbek samsa"}
             width={500}
             height={500}
             className="rounded-xl shadow-md"
@@ -43,14 +45,14 @@ const ResultCard = ({ res }: { res: PieResult | null }) => {
 
       <CardFooter className="flex flex-col gap-2 items-center">
         <Button className="cursor-pointer" onClick={() => setDialogOpen(true)}>
-          Share result
+          {t("shareResult")}
         </Button>
         <Button
           className="cursor-pointer"
           variant="outline"
           onClick={() => location.reload()}
         >
-          Take the quiz again
+          {t("takeQuizAgain")}
         </Button>
       </CardFooter>
       <ShareDialog

@@ -1,0 +1,144 @@
+{
+  "HomePage": {
+    "title": "🥟 Which Uzbek Pie Is Your Soul Pastry?",
+    "description": "Ever wondered if you're a classic meat samsa or a sweet pumpkin one? This quiz blends fun, flavor, and personality. Let's find your inner pie!",
+    "start": "Start the Quiz",
+    "galleryLink": "or browse the inspiration gallery →"
+  },
+  "Settings": {
+    "appearance": "Appearance",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "language": "Language",
+    "locale": "{locale}"
+  },
+  "GalleryPage": {
+    "title": "Inspiration gallery",
+    "description1": "I wanted to include these pictures here, because they are full of sun, summer, smell of peaches, spices and street traditional food. I hope they will bring sparkle of joy to your soul, as they brought it to mine.",
+    "description2": "What started as a fun quiz turned into a journey into the warmth and richness of Uzbek culture—and I'm so happy to share that with you.",
+    "seeAttributions": "🤎 See the attributions"
+  },
+  "StatisticsPage": {
+    "title": "Statistics",
+    "description": "These statistics are based on quiz results submitted by users — see which pie types are the most popular!"
+  },
+  "AttributionsPage": {
+    "title": "Image Attributions",
+    "thanks": "Big thanks to all the amazing photographers who shared these beautiful visuals. 🧡",
+    "backToGallery": "Back to gallery"
+  },
+  "Quiz": {
+    "question1": "What kind of bazaar do you love the most?",
+    "q1a1": "Spices & smells everywhere",
+    "q1a2": "Handicrafts & embroidery",
+    "q1a3": "Fruits and warm bread",
+    "q1a4": "Silks, ceramics & old books",
+
+    "question2": "Your ideal morning ritual?",
+    "q2a1": "Brewing tea slowly",
+    "q2a2": "Making breakfast for loved ones",
+    "q2a3": "Quiet journaling or sketching",
+    "q2a4": "Dancing while cleaning",
+
+    "question3": "Pick a spice that calls your soul:",
+    "q3a1": "Chili (bold & hot)",
+    "q3a2": "Cumin (earthy & deep)",
+    "q3a3": "Cinnamon (sweet & warm)",
+    "q3a4": "Garlic (strong & honest)",
+
+    "question4": "Choose a traditional Uzbek pattern:",
+    "q4a1": "Suzani flowers",
+    "q4a2": "Ikat waves",
+    "q4a3": "Geometric tiles",
+    "q4a4": "Gold-thread embroidery",
+
+    "question5": "How do you react when something goes wrong?",
+    "q5a1": "Breathe and find the calm",
+    "q5a2": "Make a joke and roll with it",
+    "q5a3": "Express it, loud and proud",
+    "q5a4": "Hide feelings, help others instead",
+
+    "question6": "Pick a comfort food on a cold day:",
+    "q6a1": "Lagman (a noodle soup made with beef, garlic, tomato paste, vegetables, and cumin)",
+    "q6a2": "Fresh non (traditional bread from Uzbekistan) with butter",
+    "q6a3": "Samsa, obviously",
+    "q6a4": "Pumpkin soup with herbs",
+
+    "question7": "Choose your tea mood:",
+    "q7a1": "Green tea with mint",
+    "q7a2": "Black tea, no sugar",
+    "q7a3": "Lemon & ginger",
+    "q7a4": "Dried fruit infusion",
+
+    "question8": "Your home vibe is more like:",
+    "q8a1": "Cozy and soft",
+    "q8a2": "Creative and messy",
+    "q8a3": "Calm and minimal",
+    "q8a4": "Stylish and bold",
+
+    "question9": "How do your friends see you?",
+    "q9a1": "Strong & wise",
+    "q9a2": "Weird but brilliant",
+    "q9a3": "Caring and sweet",
+    "q9a4": "Energetic and fun",
+
+    "question10": "What shape do you want your samsa to be?",
+    "q10a1": "Triangle — the classic",
+    "q10a2": "Round — soft inside, strong outside",
+    "q10a3": "Spiral — chaotic and beautiful",
+    "q10a4": "Square — sharp and balanced",
+
+    "choose": "Choose the one that feels most you"
+  },
+  "ResultPage": {
+    "classicName": "Classic Meat Samsa",
+    "classicPersonality": "🥟 Bold · Grounded · Loyal",
+    "classicDescription": "You're the dependable one. Warm, filling, timeless. People come to you for advice and solid hugs. You might seem tough on the outside, but once you're cracked open—pure comfort. You're the kind of person who brings tea and deep life chats.",
+
+    "pumpkinName": "Pumpkin & Herb Samsa",
+    "pumpkinPersonality": "🎨 Soft · Thoughtful · Artistic",
+    "pumpkinDescription": "You glow from within, like a golden sunset over Samarkand. Sensitive to beauty, full of quiet wisdom. You’re cozy and deep—a true romantic soul. Might cry over a beautiful flower. And that's okay.",
+
+    "lambName": "Lamb Fat & Onion Samsa",
+    "lambPersonality": "🔥 Intense · Passionate · Dramatic",
+    "lambDescription": "You're the dependable one. Warm, filling, timeless. People come to you for advice and solid hugs. You might seem tough on the outside, but once you're cracked open—pure comfort. You're the kind of person who brings tea and deep life chats.",
+
+    "cheeseName": "Cheese & Greens Samsa",
+    "cheesePersonality": "🍃 Fresh · Playful · Clever",
+    "cheeseDescription": "You're a flavor bomb. People remember you. You love hard, live big, and never back down from a challenge. You might monologue while making tea. And it's iconic.",
+
+    "potatoName": "Potato Samsa",
+    "potatoPersonality": "🤝 Loyal · Funny · Kind",
+    "potatoDescription": "Simple? Never. You're grounding and comforting—people need you more than they realize. Silly at times, but incredibly dependable. You show love by making people laugh and feeding them snacks.",
+
+    "calculating": "Calculating your Uzbek pie personality…",
+    "shareResult": "Share result",
+    "takeQuizAgain": "Take the quiz again",
+    "youAreA": "You are a"
+  },
+
+  "Header": {
+    "home": "Home",
+    "statistics": "Statistics",
+    "gallery": "Gallery",
+    "attributions": "Attributions",
+    "menu": "Menu",
+    "name": "Uzbek Pie Quiz"
+  },
+
+  "ModeToggle": {
+    "appearance": "Appearance",
+    "system": "System",
+    "dark": "Dark",
+    "light": "Light"
+  },
+
+  "Footer": {
+    "builtWith": "Built with 🧡 by Daria Elina"
+  },
+
+  "Loading": {
+    "loading": "Loading..."
+  }
+}

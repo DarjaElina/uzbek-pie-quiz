@@ -12,18 +12,26 @@ import ProgressBar from "./progress-bar";
 import { cn } from "@/lib/utils";
 import { startTransition, useActionState, useState } from "react";
 import { PieType } from "@/types/pie.types";
-import { AnswerOption, PieResult } from "@/types/quiz.types";
-import { questions, results } from "@/lib/questions";
+import { AnswerOption, PieResult, Question } from "@/types/quiz.types";
 import ResultCard from "../result-card";
 import Confetti from "../confetti";
 import { createStatisticRecord } from "@/lib/actions/statistic.actions";
+import { useTranslations } from "next-intl";
 
-const QuestionCard = () => {
+const QuestionCard = ({
+  questions,
+  results,
+}: {
+  questions: Question[];
+  results: PieResult[];
+}) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [resArray, setResArray] = useState<PieType[]>([]);
   const [res, setRes] = useState<PieResult | null>(null);
   const [isCalculating, setIsCalculating] = useState(false);
   const [showResult, setShowResult] = useState(false);
+  const t = useTranslations("Quiz");
+  const resT = useTranslations("ResultPage");
 
   const [, action] = useActionState(createStatisticRecord, {
     success: false,
@@ -81,7 +89,7 @@ const QuestionCard = () => {
                   {question.question}
                 </CardTitle>
                 <CardDescription className="text-muted-foreground text-lg">
-                  Choose the one that feels most <em>you</em>
+                  {t("choose")}
                 </CardDescription>
               </CardHeader>
 
@@ -114,7 +122,7 @@ const QuestionCard = () => {
       {isCalculating && (
         <div className="flex flex-col justify-center items-center h-[60vh] text-center text-2xl font-medium gap-4">
           <span className="animate-spin text-3xl">🥟</span>
-          <p>Calculating your Uzbek pie personality…</p>
+          <p>{resT("calculating")}</p>
         </div>
       )}
       {showResult && (

@@ -3,7 +3,7 @@
 import ResultCard from "@/components/shared/result-card";
 import { PieType } from "@/generated/prisma";
 import { APP_DESCRIPTION, APP_NAME } from "@/lib/constants";
-import { results } from "@/lib/questions";
+import { results } from "@/lib/constants/questions";
 import { getMetaDataByType } from "@/lib/utils";
 import { PieTypeEnum } from "@/lib/validators";
 import { Metadata } from "next";

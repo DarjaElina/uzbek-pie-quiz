@@ -1,4 +1,4 @@
-export const galleryImageAttributions = [
+export const galleryAttributions = [
   {
     title: "A group of colorful plates",
     url: "https://unsplash.com/photos/a-group-of-colorful-plates-P0fElPeUd0M",
@@ -97,7 +97,7 @@ export const galleryImageAttributions = [
   },
 ];
 
-export const quizImageAttributions = [
+export const quizAttributions = [
   {
     title: "Spices in bowls",
     url: "https://unsplash.com/photos/stainless-steel-bowls-2IaZGfBKgMY",
