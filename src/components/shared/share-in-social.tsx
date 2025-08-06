@@ -25,7 +25,7 @@ import {
   DialogTitle,
 } from "../ui/dialog";
 import { SERVER_URL } from "@/lib/constants";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 interface DialogProps {
   dialogOpen: boolean;
@@ -36,7 +36,8 @@ interface DialogProps {
 }
 
 const ShareDialog = ({ dialogOpen, setDialogOpen, type }: DialogProps) => {
-  const shareUrl = `${SERVER_URL}/share/${type?.toLowerCase()}`;
+  const locale = useLocale();
+  const shareUrl = `${SERVER_URL}/${locale}/share/${type?.toLowerCase()}`;
   const t = useTranslations("ResultPage");
   return (
     <Dialog open={dialogOpen} onOpenChange={setDialogOpen}>
