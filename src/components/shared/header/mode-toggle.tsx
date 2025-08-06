@@ -55,13 +55,13 @@ const ModeToggle = () => {
           checked={theme === "dark"}
           onClick={() => setTheme("dark")}
         >
-          {t("light")}
+          {t("dark")}
         </DropdownMenuCheckboxItem>
         <DropdownMenuCheckboxItem
           checked={theme === "light"}
           onClick={() => setTheme("light")}
         >
-          {t("dark")}
+          {t("light")}
         </DropdownMenuCheckboxItem>
       </DropdownMenuContent>
     </DropdownMenu>
