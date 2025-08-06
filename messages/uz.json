@@ -121,7 +121,8 @@
     "takeQuizAgain": "Testni yana bir bor bajaring",
     "tryItYourself": "Testni o'zingiz bajaring",
     "shareWith": "Test natijangizni do'stlaringiz va oila a'zolaringiz bilan ulashing!",
-    "cancel": "Bekor qilish"
+    "cancel": "Bekor qilish",
+    "iAmUzbekPie": "Ichki o‘zbek somsam — {result}"
   },
   "Header": {
     "home": "Bosh sahifa",

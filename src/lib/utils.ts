@@ -34,8 +34,8 @@ export async function getMetaDataByType(type: PieType) {
   const { nameKey, personalityKey } = result;
 
   return {
-    title: `My inner Uzbek Pie is ${t(nameKey)} 🥟`,
-    description: `I am ${t(personalityKey)}`,
+    title: t("iAmUzbekPie", { result: t(nameKey) }),
+    description: t("iAm", { result: t(personalityKey) }),
   };
 }
 

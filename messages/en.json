@@ -121,7 +121,8 @@
     "takeQuizAgain": "Take the quiz again",
     "tryItYourself": "Give the quiz a try!",
     "shareWith": "Share your quiz result with friends and family!",
-    "cancel": "Cancel"
+    "cancel": "Cancel",
+    "iAmUzbekPie": "My inner Uzbek Pie is {result}"
   },
 
   "Header": {
