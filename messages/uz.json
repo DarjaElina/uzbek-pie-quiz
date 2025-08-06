@@ -118,11 +118,10 @@
     "youAre": "Siz {result}siz",
     "iAm": "Men {result}man",
     "shareResult": "Natijangizni ulashing",
-    "takeQuizAgain": "Testni yana bir bor bajaring",
-    "tryItYourself": "Testni o'zingiz bajaring",
+    "takeQuizAgain": "Testni yana bir bor bajarish",
+    "tryItYourself": "Testni o'zingiz sinab ko'ring!",
     "shareWith": "Test natijangizni do'stlaringiz va oila a'zolaringiz bilan ulashing!",
-    "cancel": "Bekor qilish",
-    "iAmUzbekPie": "Ichki o‘zbek somsam — {result}"
+    "cancel": "Bekor qilish"
   },
   "Header": {
     "home": "Bosh sahifa",
@@ -144,5 +143,15 @@
 
   "Loading": {
     "loading": "Yuklanmoqda..."
+  },
+  "Metadata": {
+    "title": "O‘zbek Somsa Testi",
+    "description": "Ichki o‘zbek somsangizni kashf eting!",
+    "iAmUzbekPie": "Ichki o‘zbek pirogim — {result}",
+    "iAm": "Men {result}man",
+    "quiz": "Viktorina",
+    "gallery": "Galereya",
+    "statistics": "Statistika",
+    "attributions": "Mualliflik huquqlari"
   }
 }

@@ -3,9 +3,18 @@ import { getStatisticData } from "@/lib/actions/statistic.actions";
 import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 
-export const metadata: Metadata = {
-  title: "Statistics",
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "Metadata" });
+
+  return {
+    title: t("statistics"),
+  };
+}
 const StatisticPage = async () => {
   const statisticData = await getStatisticData();
   const t = await getTranslations("StatisticsPage");

@@ -121,8 +121,7 @@
     "takeQuizAgain": "Take the quiz again",
     "tryItYourself": "Give the quiz a try!",
     "shareWith": "Share your quiz result with friends and family!",
-    "cancel": "Cancel",
-    "iAmUzbekPie": "My inner Uzbek Pie is {result}"
+    "cancel": "Cancel"
   },
 
   "Header": {
@@ -147,5 +146,16 @@
 
   "Loading": {
     "loading": "Loading..."
+  },
+
+  "Metadata": {
+    "title": "Uzbek Pie Quiz",
+    "description": "Discover your inner Uzbek pie!",
+    "iAmUzbekPie": "My inner Uzbek Pie is {result}",
+    "iAm": "I'm {result}",
+    "quiz": "Quiz",
+    "gallery": "Gallery",
+    "statistics": "Statistics",
+    "attributions": "Attributions"
   }
 }

@@ -1,7 +1,6 @@
 import { clsx, type ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
 import JSConfetti from "js-confetti";
-import { APP_DESCRIPTION, APP_NAME } from "./constants";
 import { PieType } from "@/generated/prisma";
 import { results } from "./constants/results";
 import { questions } from "./constants/questions";
@@ -20,14 +19,14 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
-export async function getMetaDataByType(type: PieType) {
+export async function getMetaDataByType(type: PieType, locale: string) {
   const result = results.find((r) => r.type === type);
-  const t = await getTranslations("ResultPage");
+  const t = await getTranslations({ locale, namespace: "Metadata" });
 
   if (!result) {
     return {
-      title: APP_NAME,
-      description: APP_DESCRIPTION,
+      title: t("title"),
+      description: t("description"),
     };
   }
 

@@ -118,11 +118,10 @@
     "youAre": "Olet {result}",
     "iAm": "Olen {result}",
     "shareResult": "Jaa tuloksesi",
-    "takeQuizAgain": "Kokeile testiä!",
-    "tryItYourself": "Kokeile itse",
+    "takeQuizAgain": "Tee testi uudelleen",
+    "tryItYourself": "Kokeile testiä itse!",
     "shareWith": "Jaa kyselytuloksesi ystävien ja perheen kanssa!",
-    "cancel": "Peruuta",
-    "iAmUzbekPie": "Sisäinen uzbekkipiiraani on {result}"
+    "cancel": "Peruuta"
   },
 
   "Header": {
@@ -147,5 +146,15 @@
 
   "Loading": {
     "loading": "Ladataan..."
+  },
+  "Metadata": {
+    "title": "Uzbekistanin piirakkatesti",
+    "description": "Löydä sisäinen uzbekkipiirakkasi!",
+    "iAmUzbekPie": "Sisäinen uzbekkipiiraani on {result}",
+    "iAm": "Olen {result}",
+    "quiz": "Testi",
+    "gallery": "Galleria",
+    "statistics": "Tilastot",
+    "attributions": "Tekijänoikeudet"
   }
 }

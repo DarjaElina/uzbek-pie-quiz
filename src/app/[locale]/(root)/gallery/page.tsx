@@ -3,10 +3,20 @@ import { uzbekImages } from "@/lib/constants/images";
 import { Link } from "@/i18n/navigation";
 import { Metadata } from "next";
 import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 
-export const metadata: Metadata = {
-  title: "Gallery",
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "Metadata" });
+
+  return {
+    title: t("gallery"),
+  };
+}
 
 export default function GalleryPage() {
   const t = useTranslations("GalleryPage");
