@@ -22,6 +22,7 @@ export function cn(...inputs: ClassValue[]) {
 export async function getMetaDataByType(type: PieType, locale: string) {
   const result = results.find((r) => r.type === type);
   const t = await getTranslations({ locale, namespace: "Metadata" });
+  const resT = await getTranslations({ locale, namespace: "ResultPage"})
 
   if (!result) {
     return {
@@ -33,8 +34,8 @@ export async function getMetaDataByType(type: PieType, locale: string) {
   const { nameKey, personalityKey } = result;
 
   return {
-    title: t("iAmUzbekPie", { result: t(nameKey) }),
-    description: t("iAm", { result: t(personalityKey) }),
+    title: t("iAmUzbekPie", { result: resT(nameKey) }),
+    description: t("iAm", { result: resT(personalityKey) }),
   };
 }
 
