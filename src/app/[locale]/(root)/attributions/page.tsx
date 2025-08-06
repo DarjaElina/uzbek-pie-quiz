@@ -76,6 +76,7 @@ export default function AttributionsPage() {
       <a
         href="https://www.flaticon.com/free-icons/empanada"
         title="empanada icons"
+        className="text-muted-foreground underline"
       >
         Empanada icons created by Freepik - Flaticon
       </a>
