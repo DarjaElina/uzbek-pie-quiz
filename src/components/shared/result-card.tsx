@@ -28,7 +28,6 @@ const ResultCard = ({
 
   const shareTitle = res?.name ? t("iAm", { result: res.name }) : "";
   const shareText = res?.personality || "";
-
   return (
     <Card className="max-w-xl mx-auto">
       <CardHeader>
@@ -55,7 +54,9 @@ const ResultCard = ({
             className="rounded-xl shadow-md"
           />
         )}
-        <p className="text-center text-base">{res?.description}</p>
+        <p className="text-center text-base">
+          {mode !== "share" && res?.description}
+        </p>
       </CardContent>
 
       <CardFooter className="flex flex-col items-center gap-3 w-full">

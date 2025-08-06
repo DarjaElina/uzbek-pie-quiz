@@ -16,17 +16,16 @@
   "GalleryPage": {
     "title": "Ilhom galleriyasi",
     "description1": "Bu rasmlarni shu yerga qo‘shmoqchi bo‘ldim, chunki ular quyosh, yoz, shaftoli hidi, ziravorlar va an’anaviy ko‘cha taomlari bilan to‘la. Umid qilamanki, ular sizning qalbingizga quvonch olib keladi, qandayki meniki olib kelganidek.",
-    "description2": "Qiziqarli viktorina sifatida boshlangan narsa, o‘zbek madaniyatining iliqligi va boyligiga sayohatga aylandi — va men buni siz bilan bo‘lishayotganimdan juda xursandman.",
     "seeAttributions": "🤎 Manbalarni ko‘rish"
   },
   "StatisticsPage": {
     "title": "Statistika",
     "description": "Bu statistika foydalanuvchilar topshirgan viktorina natijalariga asoslangan — qaysi pirog turlari eng mashhur ekanligini bilib oling!",
-    "CLASSIC": "Klassik Lihasamsa",
-    "PUMPKIN": "Qovoq va Ziravor Samsasi",
-    "POTATO": "Kartoshka Samsasi",
-    "CHEESE": "Pishloq va Yashil Samsa",
-    "LAMB": "Qo'y yog'i va piyoz Samsasi"
+    "CLASSIC": "Klassik",
+    "PUMPKIN": "Qovoq",
+    "POTATO": "Kartoshka",
+    "CHEESE": "Pishloq",
+    "LAMB": "Qo'y yog'i"
   },
   "AttributionsPage": {
     "title": "Rasmlar mualliflari",
@@ -92,9 +91,7 @@
     "q10a1": "Uchburchak — klassik",
     "q10a2": "Aylana — ichida yumshoq, tashqi qattiq",
     "q10a3": "Spiral — tartibsiz va chiroyli",
-    "q10a4": "To‘rtburchak — o‘tkir va muvozanatli",
-
-    "choose": "Eng sizga mos keladiganini tanlang"
+    "q10a4": "To‘rtburchak — o‘tkir va muvozanatli"
   },
   "ResultPage": {
     "classicName": "Klassik go‘shtli samsa",

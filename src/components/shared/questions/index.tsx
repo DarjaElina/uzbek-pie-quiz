@@ -30,7 +30,6 @@ const QuestionCard = ({
   const [res, setRes] = useState<PieResult | null>(null);
   const [isCalculating, setIsCalculating] = useState(false);
   const [showResult, setShowResult] = useState(false);
-  const t = useTranslations("Quiz");
   const resT = useTranslations("ResultPage");
 
   const [, action] = useActionState(createStatisticRecord, {
@@ -88,9 +87,6 @@ const QuestionCard = ({
                 <CardTitle className="text-2xl sm:text-xl">
                   {question.question}
                 </CardTitle>
-                <CardDescription className="text-muted-foreground text-lg">
-                  {t("choose")}
-                </CardDescription>
               </CardHeader>
 
               <UICardContent>

@@ -16,17 +16,16 @@
   "GalleryPage": {
     "title": "Inspiraatiogalleria",
     "description1": "Halusin sisällyttää nämä kuvat tänne, koska niissä on aurinkoa, kesää, persikoiden tuoksua, mausteita ja perinteistä katuruokaa. Toivon, että ne tuovat pienen ilonkipinän sieluusi, kuten ne toivat minulle.",
-    "description2": "Se, mikä alkoi hauskana kyselynä, muuttui matkaksi uzbekistanilaisen kulttuurin lämpöön ja rikkauteen – ja olen niin iloinen voidessani jakaa sen kanssasi.",
     "seeAttributions": "🤎 Katso lähdeviittaukset"
   },
   "StatisticsPage": {
     "title": "Tilastot",
     "description": "Nämä tilastot perustuvat käyttäjien lähettämiin visavastauksiin — katso, mitkä piirakkatyypit ovat suosituimpia!",
-    "CLASSIC": "Klassinen lihasamsa",
-    "PUMPKIN": "Kurpitsa-yrttisamsa",
+    "CLASSIC": "Klassinen",
+    "PUMPKIN": "Kurpitsa",
     "POTATO": "Perunasamsa",
-    "CHEESE": "Juusto-yrttisamsa",
-    "LAMB": "Lampaanrasva-sipulisamsa"
+    "CHEESE": "Juusto",
+    "LAMB": "Lampaanrasva"
   },
   "AttributionsPage": {
     "title": "Kuvien tekijänoikeudet",
@@ -92,9 +91,7 @@
     "q10a1": "Kolmio — klassinen",
     "q10a2": "Pyöreä — pehmeä sisältä, kova ulkoa",
     "q10a3": "Kierre — kaoottinen ja kaunis",
-    "q10a4": "Neliö — terävä ja tasapainoinen",
-
-    "choose": "Valitse se, joka tuntuu eniten sinulta"
+    "q10a4": "Neliö — terävä ja tasapainoinen"
   },
   "ResultPage": {
     "classicName": "Klassinen lihasamsa",

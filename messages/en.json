@@ -16,17 +16,16 @@
   "GalleryPage": {
     "title": "Inspiration gallery",
     "description1": "I wanted to include these pictures here, because they are full of sun, summer, smell of peaches, spices and street traditional food. I hope they will bring sparkle of joy to your soul, as they brought it to mine.",
-    "description2": "What started as a fun quiz turned into a journey into the warmth and richness of Uzbek culture—and I'm so happy to share that with you.",
     "seeAttributions": "🤎 See the attributions"
   },
   "StatisticsPage": {
     "title": "Statistics",
     "description": "These statistics are based on quiz results submitted by users — see which pie types are the most popular!",
-    "CLASSIC": "Classic Meat Samsa",
-    "PUMPKIN": "Pumpkin & Herb Samsa",
-    "POTATO": "Potato Samsa",
-    "CHEESE": "Cheese & Greens Samsa",
-    "LAMB": "Lamb Fat & Onion Samsa"
+    "CLASSIC": "Classic",
+    "PUMPKIN": "Pumpkin",
+    "POTATO": "Potato",
+    "CHEESE": "Cheese",
+    "LAMB": "Lamb"
   },
   "AttributionsPage": {
     "title": "Image Attributions",
@@ -92,9 +91,7 @@
     "q10a1": "Triangle — the classic",
     "q10a2": "Round — soft inside, strong outside",
     "q10a3": "Spiral — chaotic and beautiful",
-    "q10a4": "Square — sharp and balanced",
-
-    "choose": "Choose the one that feels most you"
+    "q10a4": "Square — sharp and balanced"
   },
   "ResultPage": {
     "classicName": "Classic Meat Samsa",

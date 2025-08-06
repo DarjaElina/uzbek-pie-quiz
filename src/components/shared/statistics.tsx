@@ -1,6 +1,6 @@
 "use client";
 
-import { Bar, BarChart, XAxis } from "recharts";
+import { Bar, BarChart, ResponsiveContainer, XAxis } from "recharts";
 import { useTranslations } from "next-intl";
 
 import {
@@ -27,22 +27,24 @@ const Statistics = ({ statisticData }: StatisticsProps) => {
   return (
     <ChartContainer
       config={chartConfig}
-      className="min-h-[200px] max-w-4xl m-auto"
+      className="min-h-[200px] m-auto w-full max-w-[600px] sm:max-w-[800px]"
     >
-      <BarChart data={statisticData}>
-        <XAxis
-          dataKey="type"
-          tickLine={false}
-          tickMargin={10}
-          axisLine={false}
-          tickFormatter={(type) => t(`${type}`) || type}
-        />
-        <ChartTooltip
-          cursor={false}
-          content={<ChartTooltipContent labelKey="count" nameKey="count" />}
-        />
-        <Bar dataKey="count" fill="var(--color-primary)" radius={8} />
-      </BarChart>
+      <ResponsiveContainer width="100%" height={300}>
+        <BarChart data={statisticData}>
+          <XAxis
+            dataKey="type"
+            tickLine={false}
+            tickMargin={10}
+            axisLine={false}
+            tickFormatter={(type) => t(`${type}`) || type}
+          />
+          <ChartTooltip
+            cursor={false}
+            content={<ChartTooltipContent labelKey="count" nameKey="count" />}
+          />
+          <Bar dataKey="count" fill="var(--color-primary)" radius={8} />
+        </BarChart>
+      </ResponsiveContainer>
     </ChartContainer>
   );
 };

@@ -18,10 +18,6 @@ export default function GalleryPage() {
       <p className="max-w-2xl text-muted-foreground text-lg sm:text-xl">
         {t("description1")}
       </p>
-      <p className="max-w-2xl text-muted-foreground text-lg sm:text-xl">
-        {" "}
-        {t("description2")}
-      </p>
 
       <Link
         href="/attributions"

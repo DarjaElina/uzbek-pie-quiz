@@ -34,4 +34,3 @@ The idea came after a fun chat with my [developer friend](https://github.com/Evg
 While it’s not a serious project, it was a great way to practice working with full-stack features and explore Uzbek culture, which I found rich, vibrant, and inspiring. I hope this small project brings a little joy or curiosity to your day! ❤️
 
 > 💬 Found a translation mistake or a bug? Feel free to open an issue or let me know — I’d really appreciate it!
-

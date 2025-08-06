@@ -38,7 +38,7 @@ export default async function RootLayout({
     notFound();
   }
   return (
-    <html data-scroll-behavior="smooth" lang="en" suppressHydrationWarning>
+    <html data-scroll-behavior="smooth" lang={locale} suppressHydrationWarning>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

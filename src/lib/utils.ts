@@ -59,6 +59,6 @@ export async function getLocalizedResults() {
     ...r,
     name: t(r.nameKey),
     personality: t(r.personalityKey),
-    descriptionKey: t(r.descriptionKey),
+    description: t(r.descriptionKey),
   }));
 }
