@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { uzbekImages } from "@/lib/constants/images";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { Metadata } from "next";
 import { useTranslations } from "next-intl";
 

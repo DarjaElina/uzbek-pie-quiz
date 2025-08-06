@@ -17,7 +17,7 @@ import { usePathname, useRouter } from "@/i18n/navigation";
 
 const LangToggle = () => {
   const router = useRouter();
-  const [, startTransition] = useTransition();
+  const [isPending, startTransition] = useTransition();
   const pathname = usePathname();
   const params = useParams();
   const [mounted, setMounted] = useState(false);
@@ -61,7 +61,7 @@ const LangToggle = () => {
           <DropdownMenuItem
             key={cur}
             onClick={() => onLocaleChange(cur)}
-            disabled={locale === cur}
+            disabled={locale === cur || isPending}
           >
             {locale === cur && <Check />}
             {t("locale", { locale: cur })}
