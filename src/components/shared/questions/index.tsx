@@ -3,7 +3,6 @@
 import {
   Card,
   CardContent as UICardContent,
-  CardDescription,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
